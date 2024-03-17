@@ -1,0 +1,16 @@
+﻿  TestRagged.cpp
+TestRagged.obj : error LNK2019: unresolved external symbol __imp_fRectToRaggedLinear referenced in function "int __cdecl LDD::ReshapeRaggedArrays::fTestRagged(float *,int *,int,int,float)" (?fTestRagged@ReshapeRaggedArrays@LDD@@YAHPEAMPEAHHHM@Z)
+TestRagged.obj : error LNK2019: unresolved external symbol __imp_iRectToRaggedLinear referenced in function "int __cdecl LDD::ReshapeRaggedArrays::iTestRagged(int *,int *,int,int,int)" (?iTestRagged@ReshapeRaggedArrays@LDD@@YAHPEAH0HHH@Z)
+TestRagged.obj : error LNK2019: unresolved external symbol __imp_fRaggedLinearToRect referenced in function "int __cdecl LDD::ReshapeRaggedArrays::fTestRagged(float *,int *,int,int,float)" (?fTestRagged@ReshapeRaggedArrays@LDD@@YAHPEAMPEAHHHM@Z)
+TestRagged.obj : error LNK2019: unresolved external symbol __imp_iRaggedLinearToRect referenced in function "int __cdecl LDD::ReshapeRaggedArrays::iTestRagged(int *,int *,int,int,int)" (?iTestRagged@ReshapeRaggedArrays@LDD@@YAHPEAH0HHH@Z)
+MSVCRTD.lib(_init_.obj) : error LNK2019: unresolved external symbol _CrtDbgReport referenced in function _CRT_RTC_INIT
+MSVCRTD.lib(_init_.obj) : error LNK2019: unresolved external symbol _CrtDbgReportW referenced in function _CRT_RTC_INITW
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __stdio_common_vsprintf_s referenced in function _vsprintf_s_l
+MSVCRTD.lib(_error_.obj) : error LNK2001: unresolved external symbol __C_specific_handler
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol _wmakepath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol _wsplitpath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol wcscpy_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __vcrt_GetModuleFileNameW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __vcrt_GetModuleHandleW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __vcrt_LoadLibraryExW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+C:\Users\tones\Desktop\Ragged\x64\Debug\TestRagged.exe : fatal error LNK1120: 14 unresolved externals

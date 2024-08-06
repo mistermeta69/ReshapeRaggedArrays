@@ -1,2 +1,2 @@
 # ReshapeRaggedArrays
- Pecialized sparse vector type array processing
+ Specialized sparse vector type array processing

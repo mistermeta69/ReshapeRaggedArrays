@@ -1,6 +1,6 @@
 #pragma once
 #include <math.h>
-//#ifdef LDD_LIB_EXPORT
+//#ifdef LIB_EXPORT
 //#define NATIVE_DLL_EXPORT __declspec(dllexport)
 //#else
 //#define NATIVE_DLL_EXPORT __declspec(dllimport)

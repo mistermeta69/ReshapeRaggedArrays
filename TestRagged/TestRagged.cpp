@@ -1,4 +1,3 @@
-//#undef LDD_LIB_EXPORT
 #include "TestRagged.h"
 namespace RAGGED_LIB
 {
